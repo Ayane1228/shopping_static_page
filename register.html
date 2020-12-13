@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>注册页面</title>
+	<!-- 引入favicon.ico网页图标 -->
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />		
+		<!-- 初始化css -->
+		<link rel="stylesheet" href="css/base.css">
+		<!-- 注册CSS -->
+		<link rel="stylesheet" href="css/register.css">
+		<!-- 引入JS文件 -->
+		<script src="JS/register.js"></script>
+	</head>
+	<body>
+		<div class="w">
+			<div class="header">
+				<div class="logo">
+					<a href="index.html">
+					<img src="images/logo.png" />						
+					</a>
+				</div>
+			</div>
+			<div class="registerArea ">
+				<h3>
+					注册新用户
+					<em>我有账号，前去
+					<a href="#">登录</a></em>
+					</h3>
+				<div class="reg_form">
+					<!-- 表单域 -->
+					<form action="domo.php">
+					<ul>
+						<li>
+							<label for="tel">手机号:</label>
+							<input type="text" class="inp tel" id="tel"/>
+								<span class="phone">
+									<i class="phone_icon begin"></i>
+									<em class="phone_number">请输入手机号</em>
+								</span>
+						</li>
+						<li>
+						<label for="duanxin">短信验证码:</label>
+							<input type="text" class="inp" id="duanxin" />
+							<input type="text" class="getduanxin"
+									 value="免费获取验证码">
+						</li>
+						<li class="mima_content">
+							<label for="mima">登录密码:</label>
+							<input type="password" class="inp mima" id="mima"/>
+							<i class="xianshi">
+								<img src = 'images/close.png' id="eye">
+							</i>
+							<span class="error">
+								<i class="error_icon"></i>
+								<i class="mimatishi">
+									密码长度为6~16位，
+									请使用数字，字母，
+									不包括特殊符号。
+								</i>
+							</span>
+						</li>
+						<!-- <li class="safe">
+							安全程度 
+							<em class="ruo">弱</em>
+							<em class="zhong">中</em>
+							<em class="qiang">强</em>
+						</li> -->
+						<li>
+							<label for="queren">确认密码:</label>
+							<input type="password"  class="inp querenmima" id="queren"/>
+							<span class="error">
+								<i class="queren_xianshi">
+									<img src = 'images/close.png' id="queren_eye">
+								</i>
+								<i class="error_icon">
+								</i>
+								<em class="querentishi">
+									请再次输入密码
+								</em>
+							</span>
+						</li>
+						<li class="agree">
+							<input type="checkbox" /><!-- 复选框 -->
+							同意协议并注册
+							<a href="#">
+								《用户协议》
+							</a>
+						</li>
+						<li >
+							<input type="submit" value="完成注册" class="over" />
+						</li>
+					</ul>						
+					</form>
+				</div>
+			</div>
+			<!-- 底部 -->
+			<footer>
+				<div>
+					<p class="links">
+						<a href="#">联系我们 |</a>
+						<a href="#">关于我们 |</a>
+						<a href="#">商家入驻 |</a>
+						<a href="#">营销中心 |</a>
+						<a href="#">友情链接 |</a>
+						<a href="#">关于我们 |</a>
+						<a href="#">营销中心 |</a>
+						<a href="#">友情链接 |</a>
+						<a href="#">关于我们</a>
+					</p>
+					<p class="mod_copyright_info">地址：北京市昌平区建材城西路金燕龙办公楼一层 邮编：100096 电话：400-618-4000 传真：010-82935100</p>
+					<p class="mod_copyright_info">京ICP备08001421号京公网安备110108007702</p>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>

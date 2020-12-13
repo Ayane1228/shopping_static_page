@@ -1,0 +1,176 @@
+.w{
+	width: 1200px;
+	margin: auto;
+}
+.header{
+	height: 82px;
+	border-bottom: 2px solid #b1191a;
+}
+.logo{
+	padding-top: 15px;
+}
+li{
+	margin-bottom: 12px;
+}
+.registerArea{
+	height: 520px;
+	border: 1px solid #CCCCCC;
+	margin: 20px 0 0 0 ;
+}
+.registerArea h3{
+	height: 40px;
+	border: 1px solid #CCCCCC;
+	line-height: 40px;
+	background-color: #ECECEC;
+	font-weight: normal;
+	padding: 0 10px;
+	font-size: 18px;
+}
+.registerArea h3 em{
+	float: right;
+	font-size:14px ;
+}
+.registerArea h3 em a{
+	color: #c81623;
+}
+.reg_form{
+	width: 600px;
+	height: 420px;
+	margin: 40px auto;
+}
+.reg_form ul li label{
+	display: inline-block;
+	width: 100px;
+	height: 36px;
+	/* 文字右对齐 */
+	line-height: 36px;
+	text-align: right;
+}
+.reg_form .inp{
+	width: 238px;
+	height: 34px;
+	border: 1px solid #ccc;
+	margin-left: 5px;
+}
+.phone{
+	margin-right: 10px;
+}
+.phone_icon {
+	display: inline-block;
+	vertical-align: middle;
+	width: 20px;
+	height: 20px;
+}
+.phone_number{
+	color: #666666;
+}
+.begin{
+	background: url(../images/phone.png) no-repeat;
+}
+.phoneright{
+	background: url(../images/phone_right.png);
+}
+.phonewrong{
+	background: url(../images/phone_wrong.png);
+}
+.getduanxin{
+	display: inline-block;
+	border: 1px #666666 solid;
+	cursor: pointer;
+	width: 120px;
+	height: 30px;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 30px;
+	text-align: center;
+	margin-left: 5px;
+}
+.xianshi{
+	display: inline-block;
+	width: 40px;
+	height:40px;
+	cursor: pointer;
+}
+#eye{
+	width: 30px;
+	height: 30px;
+}
+.queren_xianshi{
+	display: inline-block;
+	width: 40px;
+	height:40px;
+	cursor: pointer;
+}
+#queren_eye{
+	width: 30px;
+	height: 30px;
+}
+.mima_content{
+	width: 1100px;
+}
+.mimatishi{
+	color: #666666;
+}
+.safe{
+	padding-left: 180px;
+	color: #b2b2b2;
+	margin-bottom: 10px;
+}
+.safe em{
+	padding: 0 12px;
+}
+.ruo{
+	background-color:#de1111;
+	color: #ffffff;
+}
+.zhong{
+	background-color:#40b83f;
+	color: #ffffff;
+}
+.qiang{
+	background-color:#f79100;
+	color: #ffffff;
+}
+.agree{
+	padding-left: 100px;
+		padding-top: 16px;
+}
+.agree input{
+	vertical-align: middle;
+	padding-left: 100px;
+	margin-right: 5px;
+}
+.agree a{
+	color: #1ba1e6;
+}
+.over{
+	margin: 30px  0 0 100px;
+	width: 300px;
+	height: 34px;
+	background-color: #c81623;
+	color: #ffffff;
+	border: none;
+	font-size: 14px;
+	cursor: pointer;
+}
+.querenanniu{
+	display: inline-block;
+	width: 40px;
+	height:40px;
+	cursor: pointer;
+}
+#quereneye{
+	width: 30px;
+	height: 30px;
+}
+footer{
+	height: 120px;
+	text-align: center;
+}
+.links{
+	margin-top:30px ;
+	height: 30px;
+}
+.mod_copyright_info{
+	height: 20px;
+}

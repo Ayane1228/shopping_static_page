@@ -1,0 +1,175 @@
+/* 列表页的css */
+/* 秒杀logo */
+.sk {
+	height: 32px;
+	border-left: 2px solid #b1191a;
+	position: absolute;
+	left: 185px;
+	top: 40px;
+	padding-left: 15px;
+	padding-top: 5px;
+}
+
+.sk_list li {
+	float: left;
+	line-height: 45px;
+	margin: 0 30px;
+}
+
+.sk_list li a {
+	font-size: 16px;
+	color: #000000;
+	font-weight: 700;
+}
+
+.sk_list li a:hover {
+	color: #c81523;
+}
+
+.sk_con li {
+	float: left;
+	line-height: 45px;
+	margin: 0 20px;
+}
+
+.sk_con li a {
+	font-family: 'icomoon';
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.sk_bd {
+	overflow: hidden;
+	margin-top: 25px;
+}
+
+.sk_goods {
+	float: left;
+	position: relative;
+	width: 288px;
+	height: 458px;
+	border: 1px solid transparent;
+	margin-right: 12px;
+	margin-bottom: 15px;
+}
+
+.sk_goods:hover {
+	border: 1px solid #E12228;
+}
+
+.sk_bd ul {
+	width: 1250px;
+}
+
+.sk_goods img {
+	width: 283px;
+	height: 290px;
+}
+
+.sk_goods_title {
+	font-size: 16px;
+	color: #666;
+	font-weight: normal;
+	padding: 10px 10px 0;
+}
+
+.sk_goods_price {
+	padding: 0 10px;
+}
+
+.sk_goods_price em {
+	font-size: 22px;
+	color: #E60012;
+}
+
+.sk_goods_price del {
+	font: 14px;
+	font-weight: 700;
+	color: #a4a4a4;
+}
+
+.sk_goods_prcess {
+	padding: 0 10px;
+}
+
+.bar {
+	display: inline-block;
+	vertical-align: middle;
+	border-radius: 5px;
+	width: 130px;
+	height: 10px;
+	border: 1px solid #B1191A;
+}
+
+.bar_in {
+	width: 87%;
+	height: 10px;
+	background-color: #f24349;
+}
+
+.sk_goods_prcess em,
+.sk_goods_prcess i {
+	color: #F24349;
+}
+
+.sk_goods_buy {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	color: #ffffff;
+	background-color: #b1191a;
+	font-size: 20px;
+}
+
+.page {
+	margin: 40px 0;
+	text-align: center; //让行内块元素 居中对齐
+}
+
+.page_num a {
+	display: inline-block;
+	width: 36px;
+	height: 36px;
+	background-color: #F7F7F7;
+	line-height: 36px;
+	border: 1px solid #CCCCCC;
+}
+
+.page_num .pn_prev,
+.page_num .pn_next {
+	width: 83px;
+}
+
+.page_num .current {
+	border: 1px solid transparent;
+	background-color: transparent;
+}
+
+.page_num .dotted {
+	border: 1px solid transparent;
+	background-color: transparent;
+}
+.page_skip{
+	font-size: 16px;
+	margin-left: 35px;
+}
+.page_skip input{
+	width: 46px;
+	height:36px;
+	border: 1px solid #CCCCCC;
+	text-align: center;
+	transition: all 0.5s;
+}
+.page_skip input:focus{
+	width: 76px;
+	border: 1px solid skyblue;
+}
+.page_skip button{
+	width: 54px;
+	height:36px;
+	border: 1px solid #CCCCCC;
+	background-color: #F7F7F7;
+}
